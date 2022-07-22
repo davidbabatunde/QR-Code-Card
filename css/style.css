@@ -8,20 +8,19 @@
 
 body {
     background-color: var(--light-gray);
-    font-size: 15px;
     padding: 4.4%;
+    font-family: "Outfit", sans-serif;
 }
 
 h2 {
-    font-family: 'Oxygen', sans-serif;
     color: var(--dark-blue);
     font-weight: 700;
+    font-size: 22px;
 }
 p {
-    font-family: 'Oxygen Mono', monospace;
     color: var(--grayish-blue);
-    font-weight: 400;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .contain {
@@ -31,6 +30,7 @@ p {
     flex-flow: column wrap;
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 figure {
@@ -50,5 +50,5 @@ img {
     width: 300px;
 }
 figcaption {
-    width: 300px;
+    width: 250px;
 }
